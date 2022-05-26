@@ -26,7 +26,8 @@ func oxygenGenerator(input []string) int {
 		for i := 0; i < len(input); i++ {
 			if ones > zeros {
 				if string(input[i][j]) == "1" {
-					// here I am trying to figure ot how to reduce the data amount based on which value is larger
+					// here I am trying to figure ot how to reduce the data amount based on which value is
+					//larger Println is just a placeholder
 					fmt.Println("one")
 				}
 			}
